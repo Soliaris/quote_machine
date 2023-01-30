@@ -1,10 +1,11 @@
+import React from "react";
+import { QuoteView } from "./features/quote/QuoteView";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
+    <div id="App">
+      <QuoteView />
     </div>
   );
 }
