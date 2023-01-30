@@ -39,7 +39,7 @@ export const QuoteView = () => {
                 <div className="footer">
                     <div className="share-links">
                         <a href={'http://www.twitter.com/intent/tweet?text=' + quoteData.quote.content + " - " + quoteData.quote.author} id="tweet-quote" target={"_blank"}><i className="fa-brands fa-square-twitter"></i></a>
-                        <a href="http://www.tumblr.com"><i className="fa-brands fa-square-tumblr"></i></a>
+                        <a href="http://www.tumblr.com" target={"_blank"}><i className="fa-brands fa-square-tumblr"></i></a>
                     </div>
                     <button onClick={onClick} id="new-quote">New Quote</button>
                 </div>
